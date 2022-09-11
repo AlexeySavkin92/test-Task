@@ -1,0 +1,81 @@
+@import url(./stylenull.css);
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+.wrapper {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	background: #3498db;
+	color: #fff;
+	min-height: 100vh;
+}
+.content {
+	position: relative;
+	margin: auto;
+	padding: 20px;
+	width: 600px;
+}
+hr {
+	background: #fff;
+	border: 0;
+	height: 1px;
+	margin: 40px 0;
+}
+.title {
+	font-family: "Pacifico";
+	font-size: 36px;
+	margin: 20px auto;
+	text-align: center;
+	font-weight: 700;
+}
+.slider {
+	display: flex;
+	overflow: hidden;
+}
+.slider div {
+	font-family: "Lato";
+	font-weight: 700;
+	background: #fff;
+	color: #3498db;
+	position: relative;
+	font-size: 36px;
+	line-height: 100px;
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+	left: -100%;
+	top: 0;
+	width: calc(100% - 20px);
+	flex-shrink: 0;
+}
+button {
+	display: block;
+	position: absolute;
+	top: 50%;
+	width: 20px;
+	height: 20px;
+	padding: 0;
+	cursor: pointer;
+	background: white;
+	outline: none;
+	border: 0;
+	opacity: 0.75;
+	border-radius: 50%;
+	font-family: "Lato";
+	color: #3498db;
+	font-size: 20px;
+	line-height: 19px;
+}
+#button_left {
+	left: -40px;
+	top: 220px;
+}
+#button_right {
+	top: 220px;
+	right: -40px;
+}

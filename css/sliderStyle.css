@@ -38,12 +38,7 @@ hr {
 	overflow: hidden;
 }
 .slider div {
-	font-family: "Lato";
-	font-weight: 700;
-	background: #fff;
-	color: #3498db;
 	position: relative;
-	font-size: 36px;
 	line-height: 100px;
 	margin: 10px;
 	text-align: center;
@@ -52,10 +47,7 @@ hr {
 	width: calc(100% - 20px);
 	flex-shrink: 0;
 }
-.slider-frame {
-}
-.slider-block {
-}
+
 .slider-image {
 	width: 100%;
 	height: 100%;

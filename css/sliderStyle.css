@@ -36,7 +36,6 @@ hr {
 .slider {
 	display: flex;
 	overflow: hidden;
-	border: ridge 10px #bdc3c7;
 }
 .slider div {
 	font-family: "Lato";
@@ -46,11 +45,11 @@ hr {
 	position: relative;
 	font-size: 36px;
 	line-height: 100px;
-	/* margin: 10px; */
+	margin: 10px;
 	text-align: center;
 	left: -100%;
 	top: 0;
-	width: calc(100% - 0px);
+	width: calc(100% - 20px);
 	flex-shrink: 0;
 }
 .slider-frame {
